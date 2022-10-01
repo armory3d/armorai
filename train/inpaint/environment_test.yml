@@ -1,0 +1,17 @@
+name: inpaint_test
+channels:
+- pytorch
+- defaults
+dependencies:
+- python
+- pytorch
+- scipy
+- pip
+- pip:
+  - torchvision
+  - tensorboardX
+  - pyyaml
+  - onnx
+  - onnxruntime
+  - onnxruntime-tools
+  - sympy

@@ -1,0 +1,17 @@
+name: esrgan
+channels:
+- pytorch
+- defaults
+dependencies:
+- python
+- pytorch
+- scipy
+- pip
+- pip:
+  - torchvision
+  - onnx
+  - onnxruntime
+  - opencv-python
+  - pyyaml
+  - tqdm
+  - basicsr

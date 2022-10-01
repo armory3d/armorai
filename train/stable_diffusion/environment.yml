@@ -1,0 +1,13 @@
+name: sd
+channels:
+- pytorch
+- defaults
+dependencies:
+- python
+- pytorch
+- pip
+- pip:
+  - torchvision
+  - onnx
+  - onnxruntime
+  - diffusers

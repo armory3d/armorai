@@ -1,0 +1,18 @@
+name: pix2pix
+channels:
+- pytorch
+- defaults
+dependencies:
+- python=3.6
+- pytorch=1.4.0
+- scipy
+- pip
+- pip:
+  - torchvision==0.5.0
+  - Pillow==6.1.0
+  - numpy==1.16.4
+  - opencv-python==4.5.1.48
+  - onnx==1.8.0
+  - onnxruntime==1.1.2
+  - onnxruntime-tools==1.7.0
+  - sympy==1.9
