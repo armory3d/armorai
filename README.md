@@ -1,3 +1,3 @@
-# armorlab_models
+# armorai
 
-Download models from [releases](https://github.com/armory3d/armorlab_models/releases).
+Download models from [releases](https://github.com/armory3d/armorai_models/releases).
